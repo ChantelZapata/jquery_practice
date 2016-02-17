@@ -86,6 +86,11 @@
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
  */
 
+	function question7(){
+	$('h1').html('jQuery Ninja');
+	}
+
+	$('#button3').on('click',question7);
 
 /**
  * Question 8:
@@ -93,6 +98,12 @@
  * $('.city').attr('src', 'http://lorempixel.com/g/500/400/food');
  */
 
+	function question8(){
+		$('.city').attr('src', 'http://lorempixel.com/g/500/400/food');
+	}
+
+	$('#button3').on('click',question8);
+	//Image changed... A new attribute was returned?
 
 /**
  * Question 9:
@@ -100,7 +111,11 @@
  * Bonus: Try to do this with only one jQuery call. $('selector').css({'property': 'value', 'property': 'value'});
  */
 
+	function question9(){
+		$('p').css({'color':'blue', 'font-family':'Georgia, Times New Roman, serif'});
+	}
 
+	$('#button3').on('click',question9);
 
 
 
